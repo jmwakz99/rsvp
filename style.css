@@ -1,0 +1,246 @@
+/* Global Styles*/
+body {
+    margin: 0;
+    padding: 0;
+   
+}
+.container {
+    margin: 30px auto;
+    width: 70%;
+
+}
+
+/* Header Styles */
+.header {
+    background-image: url('images/Isopoly.gif');
+    background-position: right;
+    background-size: cover;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px auto;
+    width: 70%;
+
+
+
+}
+
+.header h1 {
+    margin: 40px 0 0 0;
+    padding: 0;
+    color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 700%;
+}
+.header p {
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+/* invitees section */
+form {
+   text-align: center;
+   margin: -60px 0;
+}
+form input {
+    padding: 15px 40px;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+form input:focus{
+   border: 2px solid white; 
+}
+form button {
+    display: inline-block;
+    margin-left: -89px;
+    background-color: cornsilk;
+    padding: 10px 15px;
+    border: 0;
+    font-size: 16px;
+    text-align: center;
+    color: red;
+    font-weight: 400;
+    cursor: pointer;
+
+
+
+    
+
+
+}
+form button:hover {
+    background: transparent;
+    color: red;
+}
+
+.invitees {
+    margin-top: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.invitees span {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* List Items Styles */
+main {
+    margin: 30px auto;
+    width: 70%;
+    border-radius: 5px;
+    border-width: 0 2px 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-top: -125px;
+    z-index: -1;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    
+    
+}
+li {
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 2px 2px 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+    padding: 10px 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 2;
+    
+}
+.faint {
+    opacity: 0.6;
+    font-size: 16px;
+}
+.edit {
+    background-color: rgb(106, 226, 106);
+    color: white;
+    border: 0;
+    margin-right: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.edit:hover {
+    color: grey;
+}
+.save {
+    background-color: grey;
+    color: green;
+    
+    margin-right: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.save:hover {
+    color: tan;
+}
+.editable {
+   margin-bottom: 15px;
+   margin-top: 15px;
+    font-size: 16px;
+    border: 1px dashed grey;
+    
+}
+
+
+.remove {
+    
+    color: red;
+    border: 0;
+    margin-right: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.remove:hover {
+    color: tomato;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 600px){
+   
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    form input {
+        text-align: center;
+     
+    }
+    form .InviteBtn {
+        display: block;
+        margin: 0 10px;
+        color: red;
+        width: 50%;
+        padding: 15px 105px;
+        font-size: 16px;
+        text-align: center;
+        
+       
+        
+
+    }
+    .invitees {
+        flex-direction: column;
+    
+    }
+    main {
+        margin-top: -165px;
+    
+    
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .header h1 {
+        font-size: 600%;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
